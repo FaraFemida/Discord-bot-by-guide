@@ -2,8 +2,8 @@ const { SlashCommandBuilder, EmbedBuilder, Embed } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('embed')
-        .setDescription('Returns an embed.'),
+        .setName("embed")
+        .setDescription("Returns an embed."),
     async execute(interaction, client) {
         const embed = new EmbedBuilder()
             .setTitle(`This is an EMBED!`)

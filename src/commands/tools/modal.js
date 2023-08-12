@@ -17,7 +17,7 @@ module.exports = {
 
         const textInput = new TextInputBuilder()
             .setCustomId('favColorInput')
-            .setLabel(`Why is your favourite color?`)
+            .setLabel(`What is your favourite color?`)
             .setRequired(true)
             .setStyle(TextInputStyle.Short);
 
