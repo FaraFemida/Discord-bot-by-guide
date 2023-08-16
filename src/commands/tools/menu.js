@@ -24,7 +24,7 @@ module.exports = {
                     value: `https://www.youtube.com/channel/UC31s0baiSBAiM0jG4quIrqg`
                 })
             );
-            
+
         await interaction.reply({
             components: [new ActionRowBuilder().addComponents(menu)]
         });

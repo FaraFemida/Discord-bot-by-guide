@@ -17,7 +17,7 @@ for (const folder of functionFolders) {
         .readdirSync(`./src/functions/${folder}`)
         .filter(file => file.endsWith(`.js`));
     for (const file of functionFiles)
-     require(`./functions/${folder}/${file}`)(client);
+        require(`./functions/${folder}/${file}`)(client);
 }
 
 client.handleEvents();
